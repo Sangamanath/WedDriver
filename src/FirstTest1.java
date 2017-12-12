@@ -35,7 +35,7 @@ public class FirstTest1 {
 			WebElement el=driver.findElement(By.xpath(".//*[@id='email']"));
 			Helper.highlightElement(driver,el);
 			el.sendKeys("dilip776");
-			driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("9036669604");
+			driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("password");
 			
 			driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 			
