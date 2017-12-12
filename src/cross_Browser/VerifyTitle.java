@@ -39,8 +39,8 @@ public class VerifyTitle {
 		}
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com");
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("dilip776");
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("9036669604");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("enter your id");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("password");
 		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 		System.out.println(driver.getTitle());
 		Thread.sleep(3000);
