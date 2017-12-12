@@ -24,7 +24,7 @@ public class ScreenShot {
 		
 		driver.get("http://www.facebook.com");
 		
-		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("dilip776");
+		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("enter your id");
 		
 		TakesScreenshot st=(TakesScreenshot)driver;
 		
@@ -32,7 +32,7 @@ public class ScreenShot {
 		
 		FileUtils.copyFile(source, new File("./ScreenShot/facebook.png"));
 		
-		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("9036669604");
+		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("password");
 		
 		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 		
